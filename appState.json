@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7335e2de-ac84-4331-8731-774f9a01be15": {
+        "id": "7335e2de-ac84-4331-8731-774f9a01be15",
+        "parent": null,
+        "name": "testbitinduinnewyr",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b9a18806-5764-4691-bc98-8d5ab85a00c9",
+          "a41aab82-2d34-4f39-8210-694cd1b2b3a7"
+        ],
+        "isRemovable": false,
+        "filePath": "testbitinduinnewyr"
+      },
+      "b9a18806-5764-4691-bc98-8d5ab85a00c9": {
+        "id": "b9a18806-5764-4691-bc98-8d5ab85a00c9",
+        "parent": "7335e2de-ac84-4331-8731-774f9a01be15",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testbitinduinnewyr/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "a41aab82-2d34-4f39-8210-694cd1b2b3a7": {
+        "id": "a41aab82-2d34-4f39-8210-694cd1b2b3a7",
+        "parent": "7335e2de-ac84-4331-8731-774f9a01be15",
+        "name": "json.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testbitinduinnewyr/json.json"
+      }
+    },
+    "rootNode": "7335e2de-ac84-4331-8731-774f9a01be15",
+    "openFiles": [
+      "b9a18806-5764-4691-bc98-8d5ab85a00c9",
+      "a41aab82-2d34-4f39-8210-694cd1b2b3a7"
+    ],
+    "currentFileId": "a41aab82-2d34-4f39-8210-694cd1b2b3a7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testbitinduinnewyr",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1577868079746
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testbitinduinnewyr",
+      "url": "https://github.com/Indunil1992/testbitinduinnewyr"
+    }
+  }
+}
